@@ -1,0 +1,25 @@
+.custom-table {
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px #982a86;
+    border-radius: 0.5rem;
+    border-left-width: 8px;
+    border-left-color: #982a86;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.custom-table__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-table__title h3,
+.custom-table__title p {
+    margin: 0;
+}
+
+.custom-table__data button {
+    width: 100%;
+}
